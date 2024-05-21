@@ -9,11 +9,11 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.container {
+.container_random {
     width: 80%;
     margin: 0 auto;
 }
-
+/*
 header {
     background-color: #333;
     color: #fff;
@@ -22,9 +22,11 @@ header {
 
 header h1 {
     text-align: center;
-}
+}   
+*/
 
-.content {
+
+.content_random2 {
     background-image: url('fundo.jpg');
     background-size: cover;
     color: #fff;
@@ -41,12 +43,19 @@ header h1 {
     flex: 1;
     text-align: center;
 }
-
-.square {
-    position: relative;
+.book1{
+    
+}
+.square_analise {
+    /* position: relative; */
     background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
-    margin-bottom: 30px;
+    border-radius: 50px;
+    height: auto;
+    width: 1000px;
+ margin: auto;
+ margin-top: 25px;
+    justify-content: center;
+    
 }
 
 .square .row {
@@ -68,13 +77,15 @@ body, html {
     padding: 0;
     font-family: Arial, sans-serif;
 }
-
+/*
 header {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
     text-align: center;
-}
+}   
+*/
+
 
 .content {
     background-color: #f2f2f2;
@@ -87,13 +98,13 @@ header {
     margin: 0 auto;
 }
 
-.square-2 {
+.square_escritor {
     background-color: #ddd;
     border-radius: 10px;
     margin: 30px 0;
     padding: 20px;
-    --background: none;
-    background-image: url(/imagens/fundo.jpg);
+    background: none;
+
 }
 
 .row {
@@ -105,19 +116,22 @@ header {
     flex: 1;
 }
 
-button {
+.btn_come {
     background-color: #007bff;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+    margin: 10px;
     transition: background-color 0.3s;
 }
-
+/*
 button:hover {
     background-color: #0056b3;
 }
+*/
+
 
 .content2 {
     display: none;
